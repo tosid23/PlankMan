@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
-var db = mongojs('mongodb://plankman_admin:Plankityo23@ds121980.mlab.com:21980/plankman',['PlankTime'])
+var db = mongojs('mongodb://plankman_admin:<passsword>@ds121980.mlab.com:21980/plankman',['PlankTime'])
 
 
 //Get all user objects
